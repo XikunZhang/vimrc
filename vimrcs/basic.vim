@@ -74,7 +74,6 @@ if has("clipboard")
   endif
 endif
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -234,6 +233,7 @@ augroup END
 " See the tabs in the file
 set list
 set listchars=tab:>- 
+
 """"""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
