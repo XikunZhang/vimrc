@@ -76,6 +76,10 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 
+" For mouse click in NERDTree
+:set mouse=a
+let g:NERDTreeMouseMode=3 
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
